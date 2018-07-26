@@ -1,4 +1,10 @@
 .header-wrapper{
+    grid-row: h-s/h-e;
+    grid-column: content-s/content-e;
+
+
+
+
     display: grid;
     grid-template-columns: [s]1fr [e];
     grid-template-rows:  [title-s]3rem [title-e sub-s] 2rem [sub-e];
@@ -27,7 +33,7 @@
         font-size: 1.6rem;
         font-weight: 300;
         line-height: 2rem;
-        
+
     }
 
 }

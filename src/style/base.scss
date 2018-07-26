@@ -18,3 +18,16 @@ body{
     font-family: $font-encode;
 
 }
+.app-wrapper{
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    grid-template-rows: [p-s h-s]13.6rem[h-e b-s] 4rem [b-e c-s] 1fr [c-e p-e];
+    grid-template-columns: [p-s] 14rem [content-s] 1fr [content-e] 14rem [p-e]
+}
+.bar{
+    height: 4rem;
+    background-color: $color-gray-D8;
+    grid-row: b-s/b-e;
+    grid-column: p-s/p-e;
+}
