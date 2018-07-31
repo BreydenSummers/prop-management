@@ -1,1 +1,1 @@
-export const Root_URL = 'localhost:3090';
+export const Root_URL = 'http://localhost:3090';
